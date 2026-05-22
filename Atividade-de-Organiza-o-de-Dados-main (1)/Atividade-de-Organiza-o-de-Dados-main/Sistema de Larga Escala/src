@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodConnect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🍔 FoodConnect</h1>
+  <p>Sistema Inteligente de Delivery</p>
+</header>
+
+<main>
+
+  <section class="card">
+    <h2>Login</h2>
+
+    <input type="text" placeholder="Usuário">
+    <input type="password" placeholder="Senha">
+
+    <button onclick="login()">Entrar</button>
+  </section>
+
+  <section class="card">
+    <h2>Cardápio</h2>
+
+    <ul>
+      <li>🍕 Pizza - R$ 35</li>
+      <li>🍔 Hambúrguer - R$ 25</li>
+      <li>🍣 Sushi - R$ 45</li>
+      <li>🥤 Refrigerante - R$ 8</li>
+    </ul>
+
+    <button onclick="pedido()">Fazer Pedido</button>
+  </section>
+
+  <section class="card">
+    <h2>Status do Pedido</h2>
+
+    <p id="status">Nenhum pedido realizado.</p>
+
+    <button onclick="rastrear()">Rastrear</button>
+  </section>
+
+</main>
+
+<footer>
+  <p>Projeto Acadêmico - Engenharia de Software</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
